@@ -1,0 +1,277 @@
+.complete-blog{
+    width: 70%;
+    margin: 20px auto;
+}
+.writer-info{
+    /* width: 90%; */
+    /* border: 2px solid black; */
+    margin: 10px auto;
+    margin-bottom: 3px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    /* background-color: burlywood; */
+    padding: 10px 0px;
+
+}
+
+.info-left{
+    padding: 5px;
+    width: 70%;
+}
+
+.info-left p{
+    font-size: 1.3rem;
+    margin: 4px ;
+    font-weight: bold;
+    font-family: var(--f4);
+}
+
+#p1{
+    font-weight: lighter;
+}
+.btn2{
+    padding:3px 12px ;
+    font-family: var(--f5);
+    margin:  2px;
+    font-weight: bold;
+}
+.btn2:hover{
+    background-color: black;
+    color: rgb(192, 171, 49);
+    border-color:navajowhite ;
+}
+.info-right{
+    width: 30%;
+    margin: 10px;
+    padding: 5px ;
+}
+.icon-2{
+    width: 3vw;
+}
+.sample-blog{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: rgba(196, 191, 196, 0.644);
+    
+}
+
+.sample-blog h1{
+    font-size: 2.1rem;
+    text-align: center;
+    margin: 10px;
+}
+.sample-content{
+    margin: 10px;
+
+}
+.sample-content img{
+    width: 95%;
+    margin: 15px 10px;
+    height: 50vh;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0) ;
+}
+
+.sample-content p{
+    font-size: 1.1rem;
+    font-family: var(--f5);
+}
+
+#md-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: var(--f1);
+}
+.hr-small{
+    /* margin: auto; */
+    height: 1%;
+    border: 1px solid black;
+}
+.hr-2{
+    width: 95%;
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 1%;
+}
+.hr-1{
+    width: 90%;
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 1%;
+}
+
+
+.liked-blogs{
+    width: 80%;
+    margin: 10px auto;
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+.sample-liked-blogs{
+    display: flex;
+    width: 100%;
+    margin: auto;
+
+}
+
+.liked-blogs h1{
+    text-align: start;
+    /* margin-bottom: 15px; */
+    margin-left: 15px;
+    font-family: var(--f1);
+
+}
+
+.blogs{
+    width: 48%;
+    margin: 0px 10px;
+    padding: 10px;
+    transition: all 0.5s ease-in-out; 
+    background-color:rgb(204, 134, 112);
+    border-radius: 10px;
+}
+
+.blogs:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 3px 8px black;
+    border-radius: 10px;
+}
+
+.blog-heading{
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin: 5px 0px;
+    color: rgb(245, 238, 142);
+    font-family: var(--f5);
+}
+
+.blogs p{
+    font-size: 1.2rem;
+    padding: 5px 0px;
+}
+
+footer{
+    margin: auto;
+}
+
+.icon-1{
+    width: 2vw;
+}
+
+@media (max-width:970px){
+    .blog-heading{
+        text-decoration: none;
+        font-size: 1.3rem;
+        margin: 5px 0px;
+        color: rgb(245, 238, 142);
+        font-family: var(--f5);
+    }
+
+    .icon-1{
+        width: 10%;
+        margin: 0px 3px;
+        
+    }
+    .icon-2{
+        width: 15%;
+        margin: 0px 3px;
+    }
+
+    
+
+}
+
+@media (max-width:701px){
+    .blog-heading{
+        text-decoration: none;
+        font-size: 1.1rem;
+        margin: 5px 0px;
+        color: rgb(245, 238, 142);
+        font-family: var(--f5);
+    }
+
+    .complete-blog{
+        width: 85%;
+        margin: 20px auto;
+    }
+    .info-left p{
+        font-size: 1.1rem;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+
+    footer{
+        width: 90%;
+        margin: auto;
+    }
+
+    
+
+}
+
+@media (max-width:640px){
+    .profile-icon .icon-2{
+        width: 20%;
+        margin: 0px;
+    }
+    .liked-blogs{
+        width: 90%;
+        margin: 10px auto;
+        /* border: 2px solid black; */
+        padding: 10px;
+    }
+
+    .icon-1{
+        width: 5%;
+        margin: 0px 3px;
+        
+    }
+
+
+
+}
+
+@media (max-width:425px){
+    .complete-blog{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .info-left p{
+        font-size: 1rem;
+    }
+    .btn{
+        font-size: 0.8rem;
+    }
+
+    .profile-icon{
+        margin-top: 30px;
+    }
+
+    .blog-heading{
+        font-size: 1rem;
+    }
+    .sample-liked-blogs{
+        flex-direction: column;
+    
+    }
+    .blogs{
+        width: auto;
+        margin: 5px 10px;
+    }
+
+    .sample-blog h1{
+        font-size: 1.3rem;
+    }
+
+    .sample-content{
+        font-size: 1rem;
+    }
+
+}
+

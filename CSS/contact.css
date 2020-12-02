@@ -1,0 +1,121 @@
+
+
+
+
+.contact-form{
+    width: 80%;
+    /* height: 100%; */
+    background-color: rgb(98, 89, 112);
+    margin: 40px auto;
+    padding: 30px 10px;
+    
+}
+
+.contact-form h2{
+    text-align: center;
+    margin: 3px 0px;
+    font-size: 2rem;
+    font-family: var(--f5);
+    color: rgb(245, 209, 89);
+}
+
+#contact-box{
+    margin:20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-items{
+    /* align-items: center; */
+    width: auto;
+    padding: 5px 25px;
+}
+.form-group{
+    margin: 20px 0px;
+    display: flex;
+   
+} 
+.form-group label{
+    width: 30%;
+    color:rgb(243, 198, 115);
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.form-group input ,textarea {
+    width: 60%;
+    font-size: 1.2rem;
+    border: 3px solid #db5b00;;
+    border-radius:10px;
+    padding: 10px 5px;
+    margin: 0px 5px;
+}
+/* .form-icon img{ 
+    width: 24%;
+    height: 30vh;
+    padding: 10px 30px;
+    margin: auto;
+
+} */
+
+.btn1{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    /* font-size: 1.4rem; */
+    font-family: var(--f5);
+    font-weight: bold;
+}
+
+
+/* -----------------Media Query----------- */
+@media (max-width:500px){
+    .form-group input ,textarea {
+        width: 60%;
+        font-size: 1rem;
+        margin: 0px;
+       
+    }
+    .form-group label{
+        min-width: 38%;
+        color:rgb(243, 198, 115);
+        font-size: 1.1rem;
+        
+    }
+    .btn1{
+        max-width: 50%;
+        font-size: 1.2 em;
+    }
+    .contact-form h2{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (max-width:400px){
+    .form-group{
+        margin: 20px 0px;
+        display: block;
+       
+    } 
+    .form-group input ,textarea {
+        width: auto;
+        font-size: 1rem;
+        margin: 5px;
+       
+    }
+    .form-group label{
+        width: 40%;
+        color:rgb(243, 198, 115);
+        font-size: 1.1rem;
+        
+    }
+
+    .contact-form h2{
+        font-size: 1.2rem;
+    }
+
+}
